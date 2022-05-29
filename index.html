@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -11,13 +11,14 @@
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <div class="add-section">
+      <section class="add-section">
         <h3 class="add-section__title">Add Item</h3>
         <div class="add-section__container">
           <input id="new-task"class="add-section__input" type="text">
           <button class="add-section__button">Add</button>
         </div>
-      </div>
+      </section>
+      <section>
       <h3 class="todo-section__title">Todo</h3>
       <ul id="todo-list" class="todo-section__list">
         <li class="todo-section__list-item">
@@ -39,6 +40,8 @@
           </button>
         </li>
       </ul>
+    </section>
+    <section>
       <h3 class="completed-section__title">Completed</h3>
       <ul id="completed-tasks-list" class="completed-section__list">
         <li class="completed-section__list-item">
@@ -51,6 +54,7 @@
           </button>
         </li>
       </ul>
+    </section>
     </main>
     <script src="app.js"></script>
   </body>
